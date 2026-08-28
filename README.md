@@ -77,3 +77,10 @@
     5.  Rendering the Window
          ```plt.show()```
 - plt.axis("off") tells Matplotlib: "Hey, this is a photo, not a math graph! Delete the border lines, delete the tick marks, and hide the coordinate numbers. Just show me the raw image pixels cleanly."
+- ```
+  plt.figure(...) ➔ Creates a wide window
+  screen.plt.subplot(1, 2, 1) ➔ Slices the window screen into two empty side-by-side slots and selects the left
+  slot.plt.imshow(rgb_img) ➔ Drops your color photo into that left
+  slot.plt.title(...) ➔ Writes a label on top of it.
+  plt.axis("off") ➔ Erases the ugly graph rulers and numbers around the edges of that slot so the photo looks clean.
+  ```
