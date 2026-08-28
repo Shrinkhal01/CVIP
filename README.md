@@ -16,4 +16,11 @@
        # Convert integer values (0-255) to float values (0.0 - 1.0)
         normalized_img = img.astype("float32") / 255.0
        ```
-       
+
+## Understanding Image Structure in RAM
+- ran ```print("Data Type:", img.dtype )```, it printed ```uint8```.
+- What it <b>means</b>: uint8 stands for Unsigned Integer (8-bit).
+- The Math: 8 bits can store 2⁸ = 256 possible values.
+- Because it is unsigned (no negative numbers), the values range from 0 to 255.
+- How pixels work : In the gray image, each pixel is a single number from 0 (pure black) to 255 (pure white).
+- In the ```img (color)``` image, each pixel is a list of 3 numbers [B, G, R], each ranging from 0 to 255.
