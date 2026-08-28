@@ -1,3 +1,4 @@
+# INFORMATION ON VARIOUS COMPUTER VISION CONCEPTS
 - Before an image is fed into an AI model (like a neural network), it almost always undergoes Preprocessing.
 - Three core OpenCV techniques :
   1. Resizing (Normalization for Neural Networks)AI models require all input images to be the exact same size (e.g., 224 × 224 for ResNet).
