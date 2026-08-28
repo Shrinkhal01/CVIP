@@ -24,3 +24,7 @@
 - Because it is unsigned (no negative numbers), the values range from 0 to 255.
 - How pixels work : In the gray image, each pixel is a single number from 0 (pure black) to 255 (pure white).
 - In the ```img (color)``` image, each pixel is a list of 3 numbers [B, G, R], each ranging from 0 to 255.
+
+- OpenCV speaks "BGR language".Matplotlib speaks "RGB language".
+- Back when OpenCV was created in 1999, the standard format for digital cameras and Windows graphics software was BGR (Blue, Green, Red).
+- OpenCV adopted this standard and kept it to avoid breaking millions of existing codebases.
