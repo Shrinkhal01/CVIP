@@ -76,3 +76,4 @@
            ```
     5.  Rendering the Window
          ```plt.show()```
+- plt.axis("off") tells Matplotlib: "Hey, this is a photo, not a math graph! Delete the border lines, delete the tick marks, and hide the coordinate numbers. Just show me the raw image pixels cleanly."
